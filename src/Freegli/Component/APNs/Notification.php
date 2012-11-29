@@ -87,7 +87,7 @@ class Notification
     private function formatPayload()
     {
         //TODO handle error
-        return return json_encode($this->payload, JSON_UNESCAPED_UNICODE);
+        return  json_encode($this->payload, JSON_UNESCAPED_UNICODE);
         
     }
 }
